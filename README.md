@@ -1,5 +1,12 @@
 # GitHub Actions Runner
 
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+**⛔️DEPRECATED⛔️** This repository is now in archive mode as Mitigram has
+stopped using [sysbox]. You may get some voluntary support through this
+friendly [fork].
+
 This project implements a self-hosted GitHub Actions Runner, tuned for use from
 within Kubernetes clusters. The project implements an [Ubuntu][ubuntu]-based
 Docker image for setting up, running and [registering][register] a runner within
@@ -10,6 +17,7 @@ alternative OCI runtime. [sysbox] makes it possible to run Docker in Docker
   [ubuntu]: https://hub.docker.com/_/ubuntu
   [register]: https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners
   [sysbox]: https://github.com/nestybox/sysbox
+  [fork]: https://github.com/efrecon/gh-runner-sysbox
 
 ## Features
 
